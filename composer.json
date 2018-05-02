@@ -1,0 +1,32 @@
+{
+  "name": "kilbot/woocommerce-software-license-manager",
+  "description": "A license management solution for selling software with WooCommerce",
+  "homepage": "http://wooslm.com",
+  "type": "wordpress-plugin",
+  "keywords": [
+    "wordpress",
+    "woocommerce",
+    "software",
+    "ecommerce",
+    "license"
+  ],
+  "require": {
+    "composer/installers": "^1.0"
+  },
+  "license": "GPLv2",
+  "authors": [
+    {
+      "name": "kilbot",
+      "homepage": "https://github.com/kilbot"
+    },
+    {
+      "name": "Vedran",
+      "homepage": "https://github.com/vdrnn"
+    }
+  ],
+  "require-dev": {
+    "10up/wp_mock": "dev-master",
+    "guzzlehttp/guzzle": "^6.1",
+    "php": ">=5.5.0"
+  }
+}
